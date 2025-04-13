@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My</title>
+</head>
+<body>
+    <h1>HTML Form Example</h1>
+    <p>This is an example of an <del>HTML4</del> <u>HTML5</u> form containing يحتوي various <mark>input</mark> controls:</p>
+
+    <form>
+        <fieldset>
+            <legend>User Information</legend>
+            <label>Username: <input type="text" name="username"></label><br><br>
+            <label>Email: <input type="email" name="email"></label><br><br>
+            <label>Password: <input type="password" name="password"></label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>Phone: <input type="tel" name="phone"></label><br><br>
+            <label>Message:</label><br>
+            <textarea name="message" rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Subscription</legend>
+            <label> Subscribe to newsletter:<input type="checkbox" name="subscribe1"></label><br>
+            <label> Subscribe to newsletter:<input type="checkbox" name="subscribe2"></label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Preferred Language</legend>
+            <label for="language">Select your preferred language: </label>
+            <select name="language" id="language">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="rating">Rate our service:</label>
+            <input type="range" id="rating" name="rating" min="0" max="10">
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
